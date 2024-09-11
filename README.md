@@ -1,7 +1,7 @@
 # AES Encryption in Python
 
 **Course**: Cryptography  
-**Student**: [Your Name]  
+**Student**: Panagiota Vinni 
 **Assignment**: Lab Exercise 2 - AES Encryption  
 **Semester**: 2nd  
 
@@ -72,9 +72,18 @@ pip install cryptography
 ## Usage Instructions
 1. Encrypting a File:
    * Run the Python script with optional parameters:
+     ```python
+      python encrypt.py key.txt input.txt output.txt
+      ```
    * If no parameters are provided, the program will prompt for input and output files.
      
 2. Decryption:
    * To decrypt an encrypted file, provide the encrypted file, the key, and the output file for the plaintext:
+      ```python
+      python decrypt.py key.txt encrypted_file.txt output.txt
+      ```
    
+---
 
+## Conclusion
+This project demonstrates how AES encryption can be implemented in Python for secure file handling. By experimenting with different encryption settings and analyzing file sizes, we gain a deeper understanding of how symmetric encryption functions in real-world applications.
